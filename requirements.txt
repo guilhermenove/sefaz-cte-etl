@@ -1,0 +1,7 @@
+cryptography
+requests
+signxml
+lxml
+gspread
+google-auth
+brazilfiscalreport

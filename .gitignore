@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Segredos e configuração local (nunca versionar)
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.pem
+*.key
+service_account*.json
+credentials*.json
+token*.json
+
+# Dados gerados localmente
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.xlsx
+*.xls
+*.csv
+logs/
+*.log
+
+# Estado e saídas da rotina de CT-e
+ultimo_nsu.json
+ctes_cancelados.json
+ctes_salvos.json
+nfs_frete_atualizado.json
+cte_recebidos/
+config_gui.json
